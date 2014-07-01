@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6270DCD1921C2E700024EDD /* Smash.caf in Resources */ = {isa = PBXBuildFile; fileRef = E6270DCC1921C2E700024EDD /* Smash.caf */; };
+		E62ABBB81919DC9C0048CB49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E62ABBB71919DC9C0048CB49 /* Foundation.framework */; };
+		E62ABBBA1919DC9C0048CB49 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E62ABBB91919DC9C0048CB49 /* CoreGraphics.framework */; };
+		E62ABBBC1919DC9C0048CB49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E62ABBBB1919DC9C0048CB49 /* UIKit.framework */; };
+		E62ABBC21919DC9C0048CB49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E62ABBC01919DC9C0048CB49 /* InfoPlist.strings */; };
+		E62ABBC41919DC9C0048CB49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E62ABBC31919DC9C0048CB49 /* main.m */; };
+		E62ABBC81919DC9C0048CB49 /* SmashAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E62ABBC71919DC9C0048CB49 /* SmashAppDelegate.m */; };
+		E62ABBCB1919DC9C0048CB49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62ABBC91919DC9C0048CB49 /* Main.storyboard */; };
+		E62ABBCE1919DC9C0048CB49 /* SmashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E62ABBCD1919DC9C0048CB49 /* SmashViewController.m */; };
+		E62ABBD01919DC9C0048CB49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E62ABBCF1919DC9C0048CB49 /* Images.xcassets */; };
+		E62ABBD71919DC9C0048CB49 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E62ABBD61919DC9C0048CB49 /* XCTest.framework */; };
+		E62ABBD81919DC9C0048CB49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E62ABBB71919DC9C0048CB49 /* Foundation.framework */; };
+		E62ABBD91919DC9C0048CB49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E62ABBBB1919DC9C0048CB49 /* UIKit.framework */; };
+		E62ABBE11919DC9C0048CB49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E62ABBDF1919DC9C0048CB49 /* InfoPlist.strings */; };
+		E62ABBE31919DC9C0048CB49 /* SmashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E62ABBE21919DC9C0048CB49 /* SmashTests.m */; };
+		E62ABBF11919DDD10048CB49 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E62ABBED1919DDD10048CB49 /* Default.png */; };
+		E62ABBF21919DDD10048CB49 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E62ABBEE1919DDD10048CB49 /* Icon.png */; };
+		E62ABBF31919DDD10048CB49 /* Target-Smashed.png in Resources */ = {isa = PBXBuildFile; fileRef = E62ABBEF1919DDD10048CB49 /* Target-Smashed.png */; };
+		E62ABBF41919DDD10048CB49 /* Target.png in Resources */ = {isa = PBXBuildFile; fileRef = E62ABBF01919DDD10048CB49 /* Target.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E62ABBDA1919DC9C0048CB49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E62ABBAC1919DC9C0048CB49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E62ABBB31919DC9C0048CB49;
+			remoteInfo = Smash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6270DCC1921C2E700024EDD /* Smash.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Smash.caf; sourceTree = "<group>"; };
+		E62ABBB41919DC9C0048CB49 /* Smash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E62ABBB71919DC9C0048CB49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E62ABBB91919DC9C0048CB49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E62ABBBB1919DC9C0048CB49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E62ABBBF1919DC9C0048CB49 /* Smash-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Smash-Info.plist"; sourceTree = "<group>"; };
+		E62ABBC11919DC9C0048CB49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E62ABBC31919DC9C0048CB49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E62ABBC51919DC9C0048CB49 /* Smash-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smash-Prefix.pch"; sourceTree = "<group>"; };
+		E62ABBC61919DC9C0048CB49 /* SmashAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmashAppDelegate.h; sourceTree = "<group>"; };
+		E62ABBC71919DC9C0048CB49 /* SmashAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmashAppDelegate.m; sourceTree = "<group>"; };
+		E62ABBCA1919DC9C0048CB49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E62ABBCC1919DC9C0048CB49 /* SmashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmashViewController.h; sourceTree = "<group>"; };
+		E62ABBCD1919DC9C0048CB49 /* SmashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmashViewController.m; sourceTree = "<group>"; };
+		E62ABBCF1919DC9C0048CB49 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E62ABBD51919DC9C0048CB49 /* SmashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E62ABBD61919DC9C0048CB49 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E62ABBDE1919DC9C0048CB49 /* SmashTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmashTests-Info.plist"; sourceTree = "<group>"; };
+		E62ABBE01919DC9C0048CB49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E62ABBE21919DC9C0048CB49 /* SmashTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmashTests.m; sourceTree = "<group>"; };
+		E62ABBED1919DDD10048CB49 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E62ABBEE1919DDD10048CB49 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E62ABBEF1919DDD10048CB49 /* Target-Smashed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Target-Smashed.png"; sourceTree = "<group>"; };
+		E62ABBF01919DDD10048CB49 /* Target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Target.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E62ABBB11919DC9C0048CB49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E62ABBBA1919DC9C0048CB49 /* CoreGraphics.framework in Frameworks */,
+				E62ABBBC1919DC9C0048CB49 /* UIKit.framework in Frameworks */,
+				E62ABBB81919DC9C0048CB49 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E62ABBD21919DC9C0048CB49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E62ABBD71919DC9C0048CB49 /* XCTest.framework in Frameworks */,
+				E62ABBD91919DC9C0048CB49 /* UIKit.framework in Frameworks */,
+				E62ABBD81919DC9C0048CB49 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6270DCB1921C2E700024EDD /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E6270DCC1921C2E700024EDD /* Smash.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		E62ABBAB1919DC9C0048CB49 = {
+			isa = PBXGroup;
+			children = (
+				E62ABBBD1919DC9C0048CB49 /* Smash */,
+				E62ABBDC1919DC9C0048CB49 /* SmashTests */,
+				E62ABBB61919DC9C0048CB49 /* Frameworks */,
+				E62ABBB51919DC9C0048CB49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E62ABBB51919DC9C0048CB49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E62ABBB41919DC9C0048CB49 /* Smash.app */,
+				E62ABBD51919DC9C0048CB49 /* SmashTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E62ABBB61919DC9C0048CB49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E62ABBB71919DC9C0048CB49 /* Foundation.framework */,
+				E62ABBB91919DC9C0048CB49 /* CoreGraphics.framework */,
+				E62ABBBB1919DC9C0048CB49 /* UIKit.framework */,
+				E62ABBD61919DC9C0048CB49 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E62ABBBD1919DC9C0048CB49 /* Smash */ = {
+			isa = PBXGroup;
+			children = (
+				E6270DCB1921C2E700024EDD /* Sounds */,
+				E62ABBEC1919DDD10048CB49 /* Images */,
+				E62ABBC61919DC9C0048CB49 /* SmashAppDelegate.h */,
+				E62ABBC71919DC9C0048CB49 /* SmashAppDelegate.m */,
+				E62ABBC91919DC9C0048CB49 /* Main.storyboard */,
+				E62ABBCC1919DC9C0048CB49 /* SmashViewController.h */,
+				E62ABBCD1919DC9C0048CB49 /* SmashViewController.m */,
+				E62ABBCF1919DC9C0048CB49 /* Images.xcassets */,
+				E62ABBBE1919DC9C0048CB49 /* Supporting Files */,
+			);
+			path = Smash;
+			sourceTree = "<group>";
+		};
+		E62ABBBE1919DC9C0048CB49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E62ABBBF1919DC9C0048CB49 /* Smash-Info.plist */,
+				E62ABBC01919DC9C0048CB49 /* InfoPlist.strings */,
+				E62ABBC31919DC9C0048CB49 /* main.m */,
+				E62ABBC51919DC9C0048CB49 /* Smash-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E62ABBDC1919DC9C0048CB49 /* SmashTests */ = {
+			isa = PBXGroup;
+			children = (
+				E62ABBE21919DC9C0048CB49 /* SmashTests.m */,
+				E62ABBDD1919DC9C0048CB49 /* Supporting Files */,
+			);
+			path = SmashTests;
+			sourceTree = "<group>";
+		};
+		E62ABBDD1919DC9C0048CB49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E62ABBDE1919DC9C0048CB49 /* SmashTests-Info.plist */,
+				E62ABBDF1919DC9C0048CB49 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E62ABBEC1919DDD10048CB49 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E62ABBED1919DDD10048CB49 /* Default.png */,
+				E62ABBEE1919DDD10048CB49 /* Icon.png */,
+				E62ABBEF1919DDD10048CB49 /* Target-Smashed.png */,
+				E62ABBF01919DDD10048CB49 /* Target.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E62ABBB31919DC9C0048CB49 /* Smash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E62ABBE61919DC9C0048CB49 /* Build configuration list for PBXNativeTarget "Smash" */;
+			buildPhases = (
+				E62ABBB01919DC9C0048CB49 /* Sources */,
+				E62ABBB11919DC9C0048CB49 /* Frameworks */,
+				E62ABBB21919DC9C0048CB49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smash;
+			productName = Smash;
+			productReference = E62ABBB41919DC9C0048CB49 /* Smash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E62ABBD41919DC9C0048CB49 /* SmashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E62ABBE91919DC9C0048CB49 /* Build configuration list for PBXNativeTarget "SmashTests" */;
+			buildPhases = (
+				E62ABBD11919DC9C0048CB49 /* Sources */,
+				E62ABBD21919DC9C0048CB49 /* Frameworks */,
+				E62ABBD31919DC9C0048CB49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E62ABBDB1919DC9C0048CB49 /* PBXTargetDependency */,
+			);
+			name = SmashTests;
+			productName = SmashTests;
+			productReference = E62ABBD51919DC9C0048CB49 /* SmashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E62ABBAC1919DC9C0048CB49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Smash;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jec.ac.jp;
+				TargetAttributes = {
+					E62ABBB31919DC9C0048CB49 = {
+						DevelopmentTeam = PTMZGU79QK;
+					};
+					E62ABBD41919DC9C0048CB49 = {
+						TestTargetID = E62ABBB31919DC9C0048CB49;
+					};
+				};
+			};
+			buildConfigurationList = E62ABBAF1919DC9C0048CB49 /* Build configuration list for PBXProject "Smash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E62ABBAB1919DC9C0048CB49;
+			productRefGroup = E62ABBB51919DC9C0048CB49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E62ABBB31919DC9C0048CB49 /* Smash */,
+				E62ABBD41919DC9C0048CB49 /* SmashTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E62ABBB21919DC9C0048CB49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E62ABBF41919DDD10048CB49 /* Target.png in Resources */,
+				E62ABBD01919DC9C0048CB49 /* Images.xcassets in Resources */,
+				E62ABBC21919DC9C0048CB49 /* InfoPlist.strings in Resources */,
+				E62ABBF31919DDD10048CB49 /* Target-Smashed.png in Resources */,
+				E62ABBF21919DDD10048CB49 /* Icon.png in Resources */,
+				E6270DCD1921C2E700024EDD /* Smash.caf in Resources */,
+				E62ABBCB1919DC9C0048CB49 /* Main.storyboard in Resources */,
+				E62ABBF11919DDD10048CB49 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E62ABBD31919DC9C0048CB49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E62ABBE11919DC9C0048CB49 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E62ABBB01919DC9C0048CB49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E62ABBCE1919DC9C0048CB49 /* SmashViewController.m in Sources */,
+				E62ABBC41919DC9C0048CB49 /* main.m in Sources */,
+				E62ABBC81919DC9C0048CB49 /* SmashAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E62ABBD11919DC9C0048CB49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E62ABBE31919DC9C0048CB49 /* SmashTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E62ABBDB1919DC9C0048CB49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E62ABBB31919DC9C0048CB49 /* Smash */;
+			targetProxy = E62ABBDA1919DC9C0048CB49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E62ABBC01919DC9C0048CB49 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E62ABBC11919DC9C0048CB49 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E62ABBC91919DC9C0048CB49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E62ABBCA1919DC9C0048CB49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E62ABBDF1919DC9C0048CB49 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E62ABBE01919DC9C0048CB49 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E62ABBE41919DC9C0048CB49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E62ABBE51919DC9C0048CB49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E62ABBE71919DC9C0048CB49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 達也 Yamaide (72EEV42DW3)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smash/Smash-Prefix.pch";
+				INFOPLIST_FILE = "Smash/Smash-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "AC1A3C3A-1E47-4110-9181-98B1F170509C";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E62ABBE81919DC9C0048CB49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 達也 Yamaide (72EEV42DW3)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smash/Smash-Prefix.pch";
+				INFOPLIST_FILE = "Smash/Smash-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "AC1A3C3A-1E47-4110-9181-98B1F170509C";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E62ABBEA1919DC9C0048CB49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Smash.app/Smash";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smash/Smash-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SmashTests/SmashTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E62ABBEB1919DC9C0048CB49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Smash.app/Smash";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smash/Smash-Prefix.pch";
+				INFOPLIST_FILE = "SmashTests/SmashTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E62ABBAF1919DC9C0048CB49 /* Build configuration list for PBXProject "Smash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E62ABBE41919DC9C0048CB49 /* Debug */,
+				E62ABBE51919DC9C0048CB49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E62ABBE61919DC9C0048CB49 /* Build configuration list for PBXNativeTarget "Smash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E62ABBE71919DC9C0048CB49 /* Debug */,
+				E62ABBE81919DC9C0048CB49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E62ABBE91919DC9C0048CB49 /* Build configuration list for PBXNativeTarget "SmashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E62ABBEA1919DC9C0048CB49 /* Debug */,
+				E62ABBEB1919DC9C0048CB49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E62ABBAC1919DC9C0048CB49 /* Project object */;
+}

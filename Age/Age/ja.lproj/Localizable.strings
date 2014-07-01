@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Age
+
+  Created by 14cm0132 on 2014/06/24.
+  Copyright (c) 2014年 jec.ac.jp. All rights reserved.
+*/
+"Age in Years" = "年齢";
+"Age in Months" = "月齢";
+"Age in Days" = "日齢";

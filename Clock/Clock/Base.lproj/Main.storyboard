@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Clock View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ClockViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Default.png" id="V62-eU-emT">
+                                <rect key="frame" x="0.0" y="54" width="320" height="460"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hand-Alarm.png" id="tcY-xO-HEV">
+                                <rect key="frame" x="139" y="198" width="42" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hand-Hour.png" id="dvK-9Q-hBV">
+                                <rect key="frame" x="142" y="177" width="36" height="214"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hand-Minute.png" id="MmL-cO-Toa">
+                                <rect key="frame" x="142" y="133" width="36" height="302"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hand-Second.png" id="DsX-bz-ELh">
+                                <rect key="frame" x="145" y="173" width="30" height="222"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZjC-z5-OUw">
+                                <rect key="frame" x="140" y="54" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Alarm-Off.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="Alarm-On.png"/>
+                                <state key="highlighted" image="Alarm-pushed.png"/>
+                                <connections>
+                                    <action selector="toggleAlarmButton" destination="vXZ-lx-hvc" eventType="touchUpInside" id="yx6-Ck-jNB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="aVD-FB-1U2">
+                                <rect key="frame" x="10" y="134" width="300" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="moveAlarmHand:forEvent:" destination="vXZ-lx-hvc" eventType="touchDragInside" id="EeT-Af-wmJ"/>
+                                    <action selector="moveAlarmHand:forEvent:" destination="vXZ-lx-hvc" eventType="touchDown" id="V55-qI-vX3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="alarmButton" destination="ZjC-z5-OUw" id="G3c-Ey-ozE"/>
+                        <outlet property="alarmHand" destination="tcY-xO-HEV" id="DI2-wH-zRq"/>
+                        <outlet property="hourHand" destination="dvK-9Q-hBV" id="BhK-HS-YJe"/>
+                        <outlet property="minuteHand" destination="MmL-cO-Toa" id="pjl-27-Zmv"/>
+                        <outlet property="secondHond" destination="DsX-bz-ELh" id="gNR-OM-UrH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Alarm-Off.png" width="40" height="40"/>
+        <image name="Alarm-On.png" width="40" height="40"/>
+        <image name="Alarm-pushed.png" width="40" height="40"/>
+        <image name="Default.png" width="320" height="460"/>
+        <image name="Hand-Alarm.png" width="42" height="172"/>
+        <image name="Hand-Hour.png" width="36" height="214"/>
+        <image name="Hand-Minute.png" width="36" height="302"/>
+        <image name="Hand-Second.png" width="30" height="222"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
